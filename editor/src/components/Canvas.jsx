@@ -71,8 +71,8 @@ export default function Canvas({ page, selectedId, selectedIds, onSelect, onUpda
   useEffect(() => { selectedIdsRef.current = selectedIds; }, [selectedIds]);
 
   const startDrag = (e, el) => {
-    if (el.locked) return;
     e.stopPropagation();
+    if (el.locked) { onSelect(el.id, false); return; }
 
     const currentIds = selectedIdsRef.current;
     const isInSelection = currentIds.includes(el.id);
