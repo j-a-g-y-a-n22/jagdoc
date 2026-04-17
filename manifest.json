@@ -1,0 +1,37 @@
+{
+  "name": "Jagdoc Viewer",
+  "short_name": "jagdoc.",
+  "description": "Open and view animated .jagdoc presentations",
+  "start_url": "./viewer.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050510",
+  "theme_color": "#050510",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='80' fill='%23050510'/%3E%3Ccircle cx='160' cy='180' r='120' fill='%236366f1' opacity='.3'/%3E%3Ccircle cx='340' cy='300' r='90' fill='%2300ccff' opacity='.25'/%3E%3Ctext x='60' y='320' font-family='system-ui,sans-serif' font-weight='900' font-size='210' fill='white'%3Ejag%3C/text%3E%3Ctext x='58' y='430' font-family='system-ui,sans-serif' font-weight='900' font-size='110' fill='%236366f1'%3Edoc.%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./viewer.html",
+      "accept": {
+        "text/plain": [".jagdoc"]
+      }
+    }
+  ],
+  "share_target": {
+    "action": "./viewer.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "categories": ["productivity", "utilities"],
+  "screenshots": []
+}

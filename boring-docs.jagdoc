@@ -1,0 +1,851 @@
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #0a0014 50%, #000508 100%)
+
+TYPE: circle
+X: -100
+Y: -80
+SIZE: 500
+COLOR: #3300cc
+
+TYPE: circle
+X: 650
+Y: 300
+SIZE: 380
+COLOR: #00aaff
+
+TYPE: circle
+X: 400
+Y: 420
+SIZE: 200
+COLOR: #cc0066
+
+TYPE: text
+TEXT: What if
+X: 60
+Y: 80
+SIZE: 52
+COLOR: #555577
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: text
+TEXT: documents
+X: 58
+Y: 148
+SIZE: 96
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: weren't boring?
+X: 58
+Y: 258
+SIZE: 64
+COLOR: #00aaff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X: 58
+Y: 348
+SIZE: 12
+COLOR: #1a1a3a
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: A question nobody was asking.  Until now.
+X: 60
+Y: 378
+SIZE: 18
+COLOR: #334466
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: ↓
+X: 430
+Y: 490
+SIZE: 22
+COLOR: #1a1a3a
+ANIMATION: fade-in
+DURATION: 3s
+
+
+PAGE
+BACKGROUND: linear-gradient(180deg, #050505 0%, #0f0008 100%)
+
+TYPE: circle
+X: 700
+Y: -60
+SIZE: 420
+COLOR: #880000
+
+TYPE: circle
+X: -80
+Y: 350
+SIZE: 300
+COLOR: #220044
+
+TYPE: text
+TEXT: Every day, millions of people
+X: 58
+Y: 70
+SIZE: 28
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: open a document
+X: 58
+Y: 114
+SIZE: 52
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: and feel absolutely nothing.
+X: 58
+Y: 182
+SIZE: 36
+COLOR: #cc2244
+BOLD: true
+ANIMATION: slide-up
+DURATION: 1.2s
+
+TYPE: box
+X: 58
+Y: 260
+WIDTH: 160
+HEIGHT: 60
+COLOR: #0d0d0d
+
+TYPE: text
+TEXT: report.pdf
+X: 78
+Y: 278
+SIZE: 14
+COLOR: #222233
+FONT: monospace
+
+TYPE: box
+X: 234
+Y: 260
+WIDTH: 160
+HEIGHT: 60
+COLOR: #0d0d0d
+
+TYPE: text
+TEXT: slides.pptx
+X: 254
+Y: 278
+SIZE: 14
+COLOR: #222233
+FONT: monospace
+
+TYPE: box
+X: 410
+Y: 260
+WIDTH: 160
+HEIGHT: 60
+COLOR: #0d0d0d
+
+TYPE: text
+TEXT: essay.docx
+X: 430
+Y: 278
+SIZE: 14
+COLOR: #222233
+FONT: monospace
+
+TYPE: text
+TEXT: Static. Lifeless. Forgettable.
+X: 58
+Y: 358
+SIZE: 22
+COLOR: #331122
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: This is the document crisis nobody talks about.
+X: 58
+Y: 400
+SIZE: 16
+COLOR: #221122
+ANIMATION: fade-in
+DURATION: 2.4s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #020210 0%, #000a18 100%)
+
+TYPE: circle
+X: 500
+Y: -100
+SIZE: 500
+COLOR: #0033ff
+
+TYPE: circle
+X: -60
+Y: 200
+SIZE: 280
+COLOR: #00ccaa
+
+TYPE: circle
+X: 720
+Y: 380
+SIZE: 220
+COLOR: #ff3300
+
+TYPE: text
+TEXT: Information doesn't have to feel
+X: 58
+Y: 68
+SIZE: 26
+COLOR: #445577
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: text
+TEXT: like homework.
+X: 58
+Y: 106
+SIZE: 52
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: Ideas deserve to move.
+X: 60
+Y: 200
+SIZE: 32
+COLOR: #00ccaa
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: Stories deserve to breathe.
+X: 60
+Y: 252
+SIZE: 32
+COLOR: #4488ff
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: text
+TEXT: Data deserves to dazzle.
+X: 60
+Y: 304
+SIZE: 32
+COLOR: #ff6644
+ANIMATION: slide-right
+DURATION: 1.6s
+
+TYPE: text
+TEXT: Every thought you write down
+X: 60
+Y: 390
+SIZE: 18
+COLOR: #223344
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: deserves to be experienced, not just read.
+X: 60
+Y: 418
+SIZE: 18
+COLOR: #223344
+ANIMATION: fade-in
+DURATION: 2.6s
+
+
+PAGE
+BACKGROUND: #000000
+
+TYPE: circle
+X: 200
+Y: 60
+SIZE: 600
+COLOR: #110022
+
+TYPE: circle
+X: 580
+Y: 280
+SIZE: 340
+COLOR: #001133
+
+TYPE: text
+TEXT: Imagine a presentation
+X: 58
+Y: 62
+SIZE: 30
+COLOR: #334455
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.5s
+
+TYPE: text
+TEXT: that opens like a film.
+X: 58
+Y: 106
+SIZE: 48
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: Where your title card doesn't just sit there —
+X: 60
+Y: 196
+SIZE: 20
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: it arrives.
+X: 60
+Y: 230
+SIZE: 44
+COLOR: #4499ff
+BOLD: true
+ANIMATION: slide-left
+DURATION: 0.9s
+DELAY: 0.4s
+
+TYPE: text
+TEXT: Where your key point doesn't just appear —
+X: 60
+Y: 308
+SIZE: 20
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 1.2s
+DELAY: 0.6s
+
+TYPE: text
+TEXT: it lands.
+X: 60
+Y: 342
+SIZE: 44
+COLOR: #00ffaa
+BOLD: true
+ANIMATION: slide-up
+DURATION: 0.9s
+DELAY: 0.8s
+
+TYPE: text
+TEXT: That's not a dream. That's .jagdoc.
+X: 60
+Y: 462
+SIZE: 16
+COLOR: #1a2233
+ANIMATION: fade-in
+DURATION: 2s
+DELAY: 1.2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #030310 0%, #080318 100%)
+
+TYPE: circle
+X: -80
+Y: -80
+SIZE: 440
+COLOR: #ff0066
+
+TYPE: circle
+X: 600
+Y: 320
+SIZE: 300
+COLOR: #6600ff
+
+TYPE: text
+TEXT: The boring document
+X: 58
+Y: 58
+SIZE: 38
+COLOR: #330022
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: text
+TEXT: vs.
+X: 58
+Y: 118
+SIZE: 28
+COLOR: #553344
+ANIMATION: fade-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: the one they remember.
+X: 58
+Y: 158
+SIZE: 38
+COLOR: #ff2255
+BOLD: true
+ANIMATION: slide-left
+DURATION: 0.8s
+
+TYPE: text
+TEXT: One gets skimmed.
+X: 60
+Y: 256
+SIZE: 22
+COLOR: #221122
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: One gets shared.
+X: 60
+Y: 292
+SIZE: 22
+COLOR: #221122
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: One gets forgotten.
+X: 60
+Y: 328
+SIZE: 22
+COLOR: #221122
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: One gets quoted.
+X: 60
+Y: 364
+SIZE: 22
+COLOR: #221122
+ANIMATION: fade-in
+DURATION: 2.1s
+
+TYPE: text
+TEXT: The difference is not the content.
+X: 60
+Y: 430
+SIZE: 20
+COLOR: #ffffff
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: It's the experience.
+X: 60
+Y: 462
+SIZE: 26
+COLOR: #ff2255
+BOLD: true
+ANIMATION: fade-in
+DURATION: 3s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #020212 0%, #050818 100%)
+
+TYPE: circle
+X: 640
+Y: -60
+SIZE: 380
+COLOR: #00ff88
+
+TYPE: circle
+X: -100
+Y: 300
+SIZE: 320
+COLOR: #0055ff
+
+TYPE: text
+TEXT: So we built something.
+X: 58
+Y: 60
+SIZE: 42
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: A file format so simple
+X: 60
+Y: 144
+SIZE: 24
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: you can write it in Notepad.
+X: 60
+Y: 178
+SIZE: 24
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 1.3s
+
+TYPE: text
+TEXT: So powerful
+X: 60
+Y: 240
+SIZE: 24
+COLOR: #00ff88
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: it renders like a movie.
+X: 60
+Y: 274
+SIZE: 24
+COLOR: #00ff88
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: box
+X: 490
+Y: 130
+WIDTH: 370
+HEIGHT: 240
+COLOR: #080e18
+
+TYPE: text
+TEXT: PAGE
+X: 510
+Y: 148
+SIZE: 14
+COLOR: #6366f1
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: BACKGROUND: #000011
+X: 510
+Y: 170
+SIZE: 14
+COLOR: #64748b
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: TYPE: text
+X: 510
+Y: 200
+SIZE: 14
+COLOR: #6366f1
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: TEXT: Hello World
+X: 510
+Y: 222
+SIZE: 14
+COLOR: #34d399
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.7s
+
+TYPE: text
+TEXT: COLOR: #ffffff
+X: 510
+Y: 242
+SIZE: 14
+COLOR: #64748b
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: ANIMATION: zoom-in
+X: 510
+Y: 262
+SIZE: 14
+COLOR: #64748b
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.9s
+
+TYPE: text
+TEXT: DURATION: 1s
+X: 510
+Y: 282
+SIZE: 14
+COLOR: #64748b
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: That's the whole thing.
+X: 60
+Y: 362
+SIZE: 18
+COLOR: #334455
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: Human readable. Browser ready. Always alive.
+X: 60
+Y: 392
+SIZE: 16
+COLOR: #223344
+ANIMATION: fade-in
+DURATION: 2.8s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #040414 0%, #0a0420 100%)
+
+TYPE: circle
+X: 380
+Y: 60
+SIZE: 480
+COLOR: #5500cc
+
+TYPE: circle
+X: -60
+Y: 360
+SIZE: 260
+COLOR: #00bbff
+
+TYPE: circle
+X: 740
+Y: 400
+SIZE: 200
+COLOR: #ff4400
+
+TYPE: text
+TEXT: Who is this for?
+X: 58
+Y: 60
+SIZE: 42
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: circle
+X: 44
+Y: 148
+SIZE: 10
+COLOR: #00bbff
+
+TYPE: text
+TEXT: The founder with a pitch that needs to land
+X: 72
+Y: 144
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 0.9s
+
+TYPE: circle
+X: 44
+Y: 190
+SIZE: 10
+COLOR: #ff4400
+
+TYPE: text
+TEXT: The designer whose portfolio should move
+X: 72
+Y: 186
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 1.1s
+
+TYPE: circle
+X: 44
+Y: 232
+SIZE: 10
+COLOR: #00ff88
+
+TYPE: text
+TEXT: The teacher who wants students to feel it
+X: 72
+Y: 228
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: circle
+X: 44
+Y: 274
+SIZE: 10
+COLOR: #ffaa00
+
+TYPE: text
+TEXT: The journalist with a story worth telling
+X: 72
+Y: 270
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 1.5s
+
+TYPE: circle
+X: 44
+Y: 316
+SIZE: 10
+COLOR: #ff0088
+
+TYPE: text
+TEXT: The student who wants an A+ and a reaction
+X: 72
+Y: 312
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 1.7s
+
+TYPE: circle
+X: 44
+Y: 358
+SIZE: 10
+COLOR: #aa00ff
+
+TYPE: text
+TEXT: Anyone who ever thought: this deserves better
+X: 72
+Y: 354
+SIZE: 18
+COLOR: #d4e0f0
+ANIMATION: slide-right
+DURATION: 1.9s
+
+TYPE: text
+TEXT: Everyone who makes documents. Everyone.
+X: 58
+Y: 450
+SIZE: 15
+COLOR: #221133
+ANIMATION: fade-in
+DURATION: 2.6s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #08000f 60%, #000510 100%)
+
+TYPE: circle
+X: 160
+Y: -120
+SIZE: 560
+COLOR: #2200aa
+
+TYPE: circle
+X: 600
+Y: 100
+SIZE: 320
+COLOR: #ff0055
+
+TYPE: circle
+X: 700
+Y: 420
+SIZE: 240
+COLOR: #00ffcc
+
+TYPE: circle
+X: -80
+Y: 400
+SIZE: 200
+COLOR: #ff6600
+
+TYPE: text
+TEXT: The document revolution
+X: 58
+Y: 90
+SIZE: 42
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: isn't coming.
+X: 58
+Y: 148
+SIZE: 58
+COLOR: #ff2255
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: It's already here.
+X: 58
+Y: 228
+SIZE: 58
+COLOR: #00ffcc
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X: 58
+Y: 318
+SIZE: 13
+COLOR: #111133
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: Open the editor.
+X: 60
+Y: 356
+SIZE: 22
+COLOR: #aaaacc
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Make something that moves.
+X: 60
+Y: 392
+SIZE: 22
+COLOR: #aaaacc
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: Share something they'll never forget.
+X: 60
+Y: 428
+SIZE: 22
+COLOR: #aaaacc
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: .jagdoc  —  because boring was never the point.
+X: 58
+Y: 496
+SIZE: 13
+COLOR: #1a1a2e
+ANIMATION: fade-in
+DURATION: 3.4s

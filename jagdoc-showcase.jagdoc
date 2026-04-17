@@ -1,0 +1,828 @@
+PAGE
+BACKGROUND: linear-gradient(160deg, #03030a 0%, #0d0520 60%, #050310 100%)
+
+TYPE: circle
+X: 560
+Y: -120
+SIZE: 480
+COLOR: #5500ee
+
+TYPE: circle
+X: -80
+Y: 280
+SIZE: 320
+COLOR: #06495a
+
+TYPE: circle
+X: 760
+Y: 380
+SIZE: 220
+COLOR: #ff0077
+
+TYPE: text
+TEXT: JAGDOC
+X: 58
+Y: 90
+SIZE: 108
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X: 58
+Y: 220
+SIZE: 14
+COLOR: #6366f1
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: A New Kind of Document
+X: 60
+Y: 252
+SIZE: 32
+COLOR: #00ccff
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: Interactive.  Animated.  Alive.
+X: 62
+Y: 302
+SIZE: 19
+COLOR: #7755cc
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: ↓  scroll to discover
+X: 62
+Y: 468
+SIZE: 13
+COLOR: #2a2a4a
+ANIMATION: fade-in
+DURATION: 3s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #07070f 0%, #100818 100%)
+
+TYPE: circle
+X: 420
+Y: 60
+SIZE: 300
+COLOR: #ff2255
+
+TYPE: circle
+X: -60
+Y: 220
+SIZE: 220
+COLOR: #493aaf
+
+TYPE: text
+TEXT: Documents were stuck.
+X: 58
+Y: 88
+SIZE: 46
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: PDF.   DOCX.   PPTX.
+X: 60
+Y: 162
+SIZE: 24
+COLOR: #db0000
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Static pages. Zero animation.
+X: 60
+Y: 198
+SIZE: 18
+COLOR: #ec35ec
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: Dead on arrival.
+X: 60
+Y: 228
+SIZE: 18
+COLOR: #9dff00
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: .jagdoc
+X: 58
+Y: 320
+SIZE: 72
+COLOR: #ff2255
+BOLD: true
+ANIMATION: slide-left
+DURATION: 0.9s
+
+TYPE: text
+TEXT: changes everything.
+X: 60
+Y: 416
+SIZE: 30
+COLOR: #ffffff
+ANIMATION: slide-left
+DURATION: 1.2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #020310 0%, #091520 100%)
+
+TYPE: circle
+X: 600
+Y: 30
+SIZE: 340
+COLOR: #0044ff
+
+TYPE: circle
+X: 720
+Y: 360
+SIZE: 200
+COLOR: #00ffaa
+
+TYPE: text
+TEXT: What is .jagdoc?
+X: 58
+Y: 72
+SIZE: 42
+COLOR: #00ffaa
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: A plain text file that renders
+X: 60
+Y: 156
+SIZE: 24
+COLOR: #ffffff
+ANIMATION: slide-right
+DURATION: 0.9s
+
+TYPE: text
+TEXT: animated, interactive experiences
+X: 60
+Y: 194
+SIZE: 24
+COLOR: #ffffff
+ANIMATION: slide-right
+DURATION: 1.2s
+
+TYPE: text
+TEXT: in any web browser.
+X: 60
+Y: 232
+SIZE: 24
+COLOR: #00ffaa
+ANIMATION: slide-right
+DURATION: 1.5s
+
+TYPE: text
+TEXT: Text  ·  Shapes  ·  Images  ·  Motion
+X: 60
+Y: 316
+SIZE: 18
+COLOR: #445566
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: All from a file you can read in Notepad.
+X: 60
+Y: 350
+SIZE: 16
+COLOR: #334455
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: box
+X: 545
+Y: 200
+WIDTH: 52
+HEIGHT: 52
+COLOR: #0044ff
+
+TYPE: box
+X: 618
+Y: 222
+WIDTH: 36
+HEIGHT: 36
+COLOR: #00ffaa
+
+TYPE: box
+X: 576
+Y: 274
+WIDTH: 64
+HEIGHT: 28
+COLOR: #ff2255
+
+
+PAGE
+BACKGROUND: #010108
+
+TYPE: circle
+X: 380
+Y: 100
+SIZE: 380
+COLOR: #ff6600
+
+TYPE: circle
+X: 80
+Y: 320
+SIZE: 240
+COLOR: #6600ff
+
+TYPE: text
+TEXT: Everything. Animates.
+X: 58
+Y: 72
+SIZE: 42
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: Fade in softly
+X: 60
+Y: 172
+SIZE: 30
+COLOR: #ffaa44
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: Slide from the left
+X: 60
+Y: 230
+SIZE: 30
+COLOR: #44aaff
+ANIMATION: slide-left
+DURATION: 1s
+
+TYPE: text
+TEXT: Rise from below
+X: 60
+Y: 290
+SIZE: 30
+COLOR: #44ff88
+ANIMATION: slide-up
+DURATION: 1s
+
+TYPE: text
+TEXT: Zoom into focus
+X: 60
+Y: 350
+SIZE: 30
+COLOR: #ff44bb
+ANIMATION: zoom-in
+DURATION: 1s
+
+TYPE: text
+TEXT: Slide from the right
+X: 60
+Y: 410
+SIZE: 30
+COLOR: #ffdd44
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: One line of code. Each.
+X: 60
+Y: 490
+SIZE: 13
+COLOR: #222244
+ANIMATION: fade-in
+DURATION: 2.5s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #040412 0%, #020214 100%)
+
+TYPE: circle
+X: -120
+Y: -60
+SIZE: 420
+COLOR: #0c9c59
+
+TYPE: circle
+X: 680
+Y: 380
+SIZE: 280
+COLOR: #8800ff
+
+TYPE: text
+TEXT: The format is beautiful.
+X: 58
+Y: 58
+SIZE: 38
+COLOR: #00ff88
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: box
+X: 490
+Y: 118
+WIDTH: 360
+HEIGHT: 290
+COLOR: #0a0f1a
+
+TYPE: text
+TEXT: PAGE
+X: 510
+Y: 136
+SIZE: 15
+COLOR: #6366f1
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: BACKGROUND: #0d0d1a
+X: 510
+Y: 158
+SIZE: 15
+COLOR: #94a3b8
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.1s
+
+TYPE: text
+TEXT: TYPE: text
+X: 510
+Y: 190
+SIZE: 15
+COLOR: #6366f1
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: TEXT: Hello World
+X: 510
+Y: 212
+SIZE: 15
+COLOR: #34d399
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.3s
+
+TYPE: text
+TEXT: X: 200   Y: 150
+X: 510
+Y: 232
+SIZE: 15
+COLOR: #94a3b8
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: SIZE: 48   COLOR: cyan
+X: 510
+Y: 252
+SIZE: 15
+COLOR: #94a3b8
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: ANIMATION: fade-in
+X: 510
+Y: 272
+SIZE: 15
+COLOR: #94a3b8
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: DURATION: 1.2s
+X: 510
+Y: 292
+SIZE: 15
+COLOR: #94a3b8
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.7s
+
+TYPE: text
+TEXT: That's it. The whole element.
+X: 58
+Y: 182
+SIZE: 22
+COLOR: #ffffff
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Human-readable. Always.
+X: 58
+Y: 222
+SIZE: 18
+COLOR: #00ff88
+ANIMATION: fade-in
+DURATION: 2.1s
+
+TYPE: text
+TEXT: Open it in Notepad.
+X: 58
+Y: 256
+SIZE: 16
+COLOR: #334455
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: Open it in a browser.
+X: 58
+Y: 280
+SIZE: 16
+COLOR: #334455
+ANIMATION: fade-in
+DURATION: 2.7s
+
+TYPE: text
+TEXT: Both just work.
+X: 58
+Y: 320
+SIZE: 20
+COLOR: #ffffff
+ANIMATION: fade-in
+DURATION: 3s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #060612 0%, #0b0620 100%)
+
+TYPE: circle
+X: 700
+Y: -80
+SIZE: 340
+COLOR: #ff0088
+
+TYPE: circle
+X: 480
+Y: 310
+SIZE: 220
+COLOR: #0088ff
+
+TYPE: circle
+X: -60
+Y: 120
+SIZE: 260
+COLOR: #aa00ff
+
+TYPE: text
+TEXT: Images live here too.
+X: 58
+Y: 72
+SIZE: 38
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: Drop any URL.
+X: 60
+Y: 148
+SIZE: 20
+COLOR: #bb88ff
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Upload from your device.
+X: 60
+Y: 180
+SIZE: 20
+COLOR: #bb88ff
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: Resize. Animate. Done.
+X: 60
+Y: 212
+SIZE: 20
+COLOR: #bb88ff
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=500&q=80
+X: 460
+Y: 72
+WIDTH: 400
+HEIGHT: 250
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&q=80
+X: 58
+Y: 310
+WIDTH: 370
+HEIGHT: 200
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #030310 0%, #0e0720 100%)
+
+TYPE: circle
+X: 200
+Y: 160
+SIZE: 500
+COLOR: #3300ff
+
+TYPE: circle
+X: 620
+Y: 80
+SIZE: 200
+COLOR: #ff0055
+
+TYPE: circle
+X: 660
+Y: 360
+SIZE: 160
+COLOR: #00ffcc
+
+TYPE: text
+TEXT: What will you build?
+X: 58
+Y: 72
+SIZE: 38
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: circle
+X: 42
+Y: 148
+SIZE: 10
+COLOR: #6366f1
+
+TYPE: text
+TEXT: Pitch decks that actually move
+X: 70
+Y: 144
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 0.9s
+
+TYPE: circle
+X: 42
+Y: 192
+SIZE: 10
+COLOR: #00ffcc
+
+TYPE: text
+TEXT: Portfolios with personality
+X: 70
+Y: 188
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 1.1s
+
+TYPE: circle
+X: 42
+Y: 236
+SIZE: 10
+COLOR: #ff2255
+
+TYPE: text
+TEXT: Resumes that remember you
+X: 70
+Y: 232
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: circle
+X: 42
+Y: 280
+SIZE: 10
+COLOR: #ffaa00
+
+TYPE: text
+TEXT: Reports with story arcs
+X: 70
+Y: 276
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 1.5s
+
+TYPE: circle
+X: 42
+Y: 324
+SIZE: 10
+COLOR: #aa00ff
+
+TYPE: text
+TEXT: Visual essays, tutorials, art
+X: 70
+Y: 320
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 1.7s
+
+TYPE: circle
+X: 42
+Y: 368
+SIZE: 10
+COLOR: #00aaff
+
+TYPE: text
+TEXT: Anything you can imagine
+X: 70
+Y: 364
+SIZE: 19
+COLOR: #e2e8f0
+ANIMATION: slide-right
+DURATION: 1.9s
+
+TYPE: text
+TEXT: If you can describe it, jagdoc can show it.
+X: 58
+Y: 454
+SIZE: 15
+COLOR: #333355
+ANIMATION: fade-in
+DURATION: 2.5s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #020208 0%, #08040f 100%)
+
+TYPE: circle
+X: -120
+Y: -100
+SIZE: 520
+COLOR: #ff0066
+
+TYPE: circle
+X: 500
+Y: 180
+SIZE: 400
+COLOR: #0033ff
+
+TYPE: circle
+X: 300
+Y: 400
+SIZE: 260
+COLOR: #00ffaa
+
+TYPE: text
+TEXT: Open.
+X: 58
+Y: 90
+SIZE: 86
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.5s
+
+TYPE: text
+TEXT: Create.
+X: 58
+Y: 200
+SIZE: 86
+COLOR: #001aff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: Share.
+X: 58
+Y: 310
+SIZE: 86
+COLOR: #00ffcc
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: .jagdoc — your canvas, your rules.
+X: 58
+Y: 440
+SIZE: 17
+COLOR: #444466
+ANIMATION: fade-in
+DURATION: 1.6s
+
+
+PAGE
+BACKGROUND: linear-gradient(180deg, #010106 0%, #000000 100%)
+
+TYPE: circle
+X: 180
+Y: -120
+SIZE: 640
+COLOR: #2200ff
+
+TYPE: circle
+X: 620
+Y: 160
+SIZE: 320
+COLOR: #ff0077
+
+TYPE: circle
+X: 80
+Y: 400
+SIZE: 220
+COLOR: #00ffaa
+
+TYPE: circle
+X: 750
+Y: 440
+SIZE: 180
+COLOR: #ff6600
+
+TYPE: text
+TEXT: The future of documents
+X: 58
+Y: 110
+SIZE: 46
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: is already here.
+X: 58
+Y: 178
+SIZE: 46
+COLOR: #6366f1
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━
+X: 58
+Y: 248
+SIZE: 14
+COLOR: #1a1a3a
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: jagdoc.
+X: 58
+Y: 298
+SIZE: 30
+COLOR: #00ffcc
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: Not a file format. An experience engine.
+X: 58
+Y: 344
+SIZE: 17
+COLOR: #333355
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: Built for creators who think bigger.
+X: 58
+Y: 372
+SIZE: 17
+COLOR: #333355
+ANIMATION: fade-in
+DURATION: 3s
+
+TYPE: text
+TEXT: ✦  Made with jagdoc, obviously.
+X: 58
+Y: 468
+SIZE: 12
+COLOR: #1e1e38
+ANIMATION: fade-in
+DURATION: 3.8s

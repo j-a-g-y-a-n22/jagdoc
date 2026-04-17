@@ -1,0 +1,111 @@
+/* ─── Overlay ────────────────────────────────────────────── */
+.pv-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  display: flex; flex-direction: column;
+  background: #020208;
+  font-family: "Inter", sans-serif;
+}
+
+/* ─── Header ─────────────────────────────────────────────── */
+.pv-hdr {
+  height: 52px; flex-shrink: 0;
+  display: flex; align-items: center; gap: 10px; padding: 0 14px;
+  background: rgba(3,3,12,0.97); border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(16px); z-index: 20;
+}
+.pv-logo {
+  font-size: 16px; font-weight: 900; color: #6366f1; letter-spacing: -0.5px; white-space: nowrap;
+}
+.pv-logo b { color: #fff; }
+.pv-count { font-size: 12px; color: #3a4060; flex: 1; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.pv-mode-toggle {
+  display: flex;
+  background: #0a0a18; border: 1px solid #1e1e3a; border-radius: 8px;
+  overflow: hidden; flex-shrink: 0;
+}
+.pv-mode-btn {
+  padding: 5px 11px; font-size: 11px; font-weight: 600;
+  color: #3a4060; cursor: pointer; border: none; background: transparent;
+  transition: background 0.15s, color 0.15s; white-space: nowrap; font-family: inherit;
+}
+.pv-mode-btn.on { background: #1e1e40; color: #818cf8; }
+
+.pv-icon-btn {
+  flex-shrink: 0; padding: 5px 10px; background: #111128;
+  border: 1px solid #222240; border-radius: 8px;
+  color: #6366f1; font-size: 13px; font-weight: 600; cursor: pointer;
+  transition: background 0.15s; white-space: nowrap; font-family: inherit;
+}
+.pv-icon-btn:hover { background: #1e1e40; }
+.pv-close { color: #94a3b8; }
+.pv-close:hover { color: #f87171; border-color: #7f1d1d; background: #1a0808; }
+
+/* ─── Slide mode ─────────────────────────────────────────── */
+.pv-stage {
+  flex: 1; position: relative; overflow: hidden;
+  background: #010107;
+  background-image: radial-gradient(circle, #0e0e1e 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+.pv-arr {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  z-index: 30; width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(10,10,30,0.75); border: 1px solid rgba(99,102,241,0.25);
+  color: #6366f1; font-size: 22px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.15s; user-select: none;
+}
+.pv-arr:hover { background: rgba(99,102,241,0.15); }
+.pv-arr:disabled { opacity: 0.15; pointer-events: none; }
+.pv-prev { left: 12px; }
+.pv-next { right: 12px; }
+
+.pv-dots {
+  flex-shrink: 0; height: 44px;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+  background: #020208;
+}
+.pv-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #1a1a30; cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+.pv-dot.on { background: #6366f1; transform: scale(1.5); }
+
+/* ─── PDF / scroll mode ──────────────────────────────────── */
+.pv-scroll {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  background: #010108;
+  background-image: radial-gradient(circle, #0e0e1e 1px, transparent 1px);
+  background-size: 26px 26px;
+  padding: 28px 0 48px;
+}
+.pv-pdf-wrap {
+  display: flex; flex-direction: column; align-items: center;
+  margin-bottom: 24px;
+}
+.pv-pdf-box {
+  position: relative; overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05), 0 12px 50px rgba(0,0,0,0.8);
+}
+.pv-pdf-label {
+  text-align: center; font-size: 10px; color: #1e1e38;
+  margin-top: 8px; letter-spacing: 0.06em;
+}
+
+/* ─── Elements ───────────────────────────────────────────── */
+.pv-el { position: absolute; opacity: 0; }
+.pv-el.pv-show     { opacity: 1; transition: opacity 0.5s ease 0.05s; }
+.pv-el.fade-in.pv-show    { animation: pvFade      var(--d,1s) var(--delay,0s) both; }
+.pv-el.slide-left.pv-show  { animation: pvSlideLeft  var(--d,1s) var(--delay,0s) both; }
+.pv-el.slide-right.pv-show { animation: pvSlideRight var(--d,1s) var(--delay,0s) both; }
+.pv-el.slide-up.pv-show    { animation: pvSlideUp    var(--d,1s) var(--delay,0s) both; }
+.pv-el.zoom-in.pv-show     { animation: pvZoom       var(--d,1s) var(--delay,0s) both; }
+
+@keyframes pvFade      { from{opacity:0;transform:translateY(28px)}  to{opacity:1;transform:none} }
+@keyframes pvSlideLeft  { from{opacity:0;transform:translateX(70px)}  to{opacity:1;transform:none} }
+@keyframes pvSlideRight { from{opacity:0;transform:translateX(-70px)} to{opacity:1;transform:none} }
+@keyframes pvSlideUp    { from{opacity:0;transform:translateY(55px)}  to{opacity:1;transform:none} }
+@keyframes pvZoom       { from{opacity:0;transform:scale(0.55)}       to{opacity:1;transform:none} }

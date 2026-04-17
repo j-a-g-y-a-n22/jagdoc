@@ -1,0 +1,1529 @@
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #020008 50%, #000002 100%)
+
+TYPE: circle
+X: 340
+Y: -60
+SIZE: 580
+COLOR: #1a0066
+
+TYPE: circle
+X: -120
+Y: 280
+SIZE: 380
+COLOR: #000044
+
+TYPE: circle
+X: 720
+Y: 380
+SIZE: 260
+COLOR: #330066
+
+TYPE: circle
+X: 600
+Y: -80
+SIZE: 160
+COLOR: #6600aa
+
+TYPE: text
+TEXT: BLACK
+X: 54
+Y: 58
+SIZE: 114
+COLOR: #0a0015
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.5s
+
+TYPE: text
+TEXT: HOLES
+X: 54
+Y: 188
+SIZE: 114
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X: 54
+Y: 318
+SIZE: 12
+COLOR: #110022
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: Where physics breaks.  Where time ends.
+X: 56
+Y: 348
+SIZE: 20
+COLOR: #331155
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Where everything we know stops making sense.
+X: 56
+Y: 378
+SIZE: 20
+COLOR: #220044
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: circle
+X: 740
+Y: 460
+SIZE: 60
+COLOR: #9900ff
+
+TYPE: circle
+X: 800
+Y: 440
+SIZE: 30
+COLOR: #ffffff
+
+TYPE: text
+TEXT: ↓  enter the darkness
+X: 56
+Y: 490
+SIZE: 13
+COLOR: #110022
+ANIMATION: fade-in
+DURATION: 3s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #000000 0%, #030010 60%, #000000 100%)
+
+TYPE: circle
+X: 420
+Y: 160
+SIZE: 440
+COLOR: #110044
+
+TYPE: circle
+X: 420
+Y: 160
+SIZE: 280
+COLOR: #330088
+
+TYPE: circle
+X: 420
+Y: 160
+SIZE: 140
+COLOR: #6600cc
+
+TYPE: circle
+X: 420
+Y: 160
+SIZE: 60
+COLOR: #ff6600
+
+TYPE: circle
+X: 420
+Y: 160
+SIZE: 20
+COLOR: #ffffff
+
+TYPE: text
+TEXT: What is a
+X: 56
+Y: 52
+SIZE: 38
+COLOR: #443366
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: text
+TEXT: Black Hole?
+X: 56
+Y: 102
+SIZE: 60
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: A region of spacetime
+X: 56
+Y: 310
+SIZE: 19
+COLOR: #443355
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: where gravity is so extreme
+X: 56
+Y: 340
+SIZE: 19
+COLOR: #443355
+ANIMATION: slide-right
+DURATION: 1.2s
+
+TYPE: text
+TEXT: that nothing — not even light —
+X: 56
+Y: 370
+SIZE: 19
+COLOR: #9966ff
+BOLD: true
+ANIMATION: slide-right
+DURATION: 1.4s
+
+TYPE: text
+TEXT: can escape its pull.
+X: 56
+Y: 400
+SIZE: 19
+COLOR: #9966ff
+BOLD: true
+ANIMATION: slide-right
+DURATION: 1.6s
+
+TYPE: box
+X: 560
+Y: 300
+WIDTH: 300
+HEIGHT: 160
+COLOR: #060012
+
+TYPE: text
+TEXT: Mass:  infinite density
+X: 576
+Y: 318
+SIZE: 13
+COLOR: #6644aa
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Escape velocity:  > c
+X: 576
+Y: 342
+SIZE: 13
+COLOR: #6644aa
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: Size of singularity: 0
+X: 576
+Y: 366
+SIZE: 13
+COLOR: #6644aa
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: Laws of physics:  broken
+X: 576
+Y: 390
+SIZE: 13
+COLOR: #ff6600
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: First predicted by Einstein in 1916.
+X: 56
+Y: 468
+SIZE: 14
+COLOR: #1a0033
+ANIMATION: fade-in
+DURATION: 2.8s
+
+TYPE: text
+TEXT: He didn't believe they were real.
+X: 56
+Y: 492
+SIZE: 14
+COLOR: #1a0033
+ANIMATION: fade-in
+DURATION: 3.2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #100400 60%, #050000 100%)
+
+TYPE: circle
+X: -100
+Y: -80
+SIZE: 500
+COLOR: #330800
+
+TYPE: circle
+X: 660
+Y: 320
+SIZE: 360
+COLOR: #441100
+
+TYPE: circle
+X: 760
+Y: 60
+SIZE: 180
+COLOR: #ff4400
+
+TYPE: text
+TEXT: How Are They Born?
+X: 56
+Y: 54
+SIZE: 46
+COLOR: #ff4400
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=420&q=80
+X: 490
+Y: 44
+WIDTH: 376
+HEIGHT: 240
+
+TYPE: text
+TEXT: A star 20× the Sun's mass.
+X: 58
+Y: 134
+SIZE: 22
+COLOR: #774433
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: Burns for 10 million years.
+X: 58
+Y: 166
+SIZE: 22
+COLOR: #774433
+ANIMATION: slide-right
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Then — in 0.2 seconds —
+X: 58
+Y: 234
+SIZE: 30
+COLOR: #ff6600
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.7s
+DELAY: 0.4s
+
+TYPE: text
+TEXT: it collapses.
+X: 58
+Y: 282
+SIZE: 52
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+DELAY: 0.8s
+
+TYPE: shape
+SHAPE: rect
+X: 56
+Y: 368
+WIDTH: 820
+HEIGHT: 3
+FILL: #220800
+BORDER: #331100
+
+TYPE: text
+TEXT: The core shrinks to a point smaller than an atom.
+X: 58
+Y: 390
+SIZE: 18
+COLOR: #553322
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Gravity becomes infinite.  A black hole is born.
+X: 58
+Y: 420
+SIZE: 18
+COLOR: #553322
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: box
+X: 56
+Y: 460
+WIDTH: 200
+HEIGHT: 50
+COLOR: #110400
+
+TYPE: text
+TEXT: SUPERNOVA
+X: 76
+Y: 476
+SIZE: 14
+COLOR: #ff4400
+BOLD: true
+FONT: monospace
+
+TYPE: box
+X: 290
+Y: 460
+WIDTH: 200
+HEIGHT: 50
+COLOR: #110400
+
+TYPE: text
+TEXT: COLLAPSE
+X: 310
+Y: 476
+SIZE: 14
+COLOR: #ff6600
+BOLD: true
+FONT: monospace
+
+TYPE: box
+X: 524
+Y: 460
+WIDTH: 200
+HEIGHT: 50
+COLOR: #110400
+
+TYPE: text
+TEXT: SINGULARITY
+X: 536
+Y: 476
+SIZE: 14
+COLOR: #ffffff
+BOLD: true
+FONT: monospace
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #000a12 100%)
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 500
+COLOR: #001133
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 320
+COLOR: #002266
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 180
+COLOR: #0044aa
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 80
+COLOR: #0088ff
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 24
+COLOR: #000000
+
+TYPE: text
+TEXT: The Event Horizon
+X: 56
+Y: 50
+SIZE: 48
+COLOR: #0088ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: The point of no return.
+X: 56
+Y: 116
+SIZE: 28
+COLOR: #ffffff
+BOLD: true
+ANIMATION: slide-up
+DURATION: 0.9s
+
+TYPE: text
+TEXT: Cross this invisible boundary
+X: 620
+Y: 160
+SIZE: 17
+COLOR: #224466
+ANIMATION: slide-left
+DURATION: 1.2s
+
+TYPE: text
+TEXT: and the universe forgets
+X: 620
+Y: 186
+SIZE: 17
+COLOR: #224466
+ANIMATION: slide-left
+DURATION: 1.4s
+
+TYPE: text
+TEXT: you ever existed.
+X: 620
+Y: 212
+SIZE: 17
+COLOR: #0088ff
+ANIMATION: slide-left
+DURATION: 1.6s
+
+TYPE: text
+TEXT: No signal, no cry, no light
+X: 620
+Y: 260
+SIZE: 15
+COLOR: #112233
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: can escape to tell the story.
+X: 620
+Y: 284
+SIZE: 15
+COLOR: #112233
+ANIMATION: fade-in
+DURATION: 2.3s
+
+TYPE: box
+X: 56
+Y: 380
+WIDTH: 340
+HEIGHT: 120
+COLOR: #000a18
+
+TYPE: text
+TEXT: Schwarzschild Radius
+X: 72
+Y: 398
+SIZE: 13
+COLOR: #0066aa
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: For the Sun:   3 km
+X: 72
+Y: 422
+SIZE: 13
+COLOR: #224455
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: For the Earth: 9 mm
+X: 72
+Y: 444
+SIZE: 13
+COLOR: #224455
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: For you:       ~10⁻²⁵ m
+X: 72
+Y: 466
+SIZE: 13
+COLOR: #224455
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: Everything has one. Most never reach it.
+X: 430
+Y: 420
+SIZE: 15
+COLOR: #112233
+ANIMATION: fade-in
+DURATION: 2.8s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #000000 0%, #080010 100%)
+
+TYPE: circle
+X: -80
+Y: -60
+SIZE: 460
+COLOR: #220055
+
+TYPE: circle
+X: 680
+Y: 300
+SIZE: 340
+COLOR: #330066
+
+TYPE: circle
+X: 760
+Y: 60
+SIZE: 160
+COLOR: #8800ff
+
+TYPE: text
+TEXT: Time Bends.
+X: 56
+Y: 54
+SIZE: 68
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: Near a black hole, time itself
+X: 56
+Y: 148
+SIZE: 24
+COLOR: #664488
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: slows to a crawl.
+X: 56
+Y: 184
+SIZE: 38
+COLOR: #aa44ff
+BOLD: true
+ANIMATION: slide-up
+DURATION: 1s
+
+TYPE: shape
+SHAPE: rect
+X: 56
+Y: 254
+WIDTH: 380
+HEIGHT: 200
+FILL: #08001a
+BORDER: #330066
+
+TYPE: text
+TEXT: 1 hour at the edge
+X: 76
+Y: 274
+SIZE: 16
+COLOR: #9966ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: =
+X: 76
+Y: 304
+SIZE: 28
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: 7 years on Earth.
+X: 76
+Y: 342
+SIZE: 22
+COLOR: #ff6600
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 0.6s
+
+TYPE: text
+TEXT: Interstellar (2014) got this right.
+X: 76
+Y: 390
+SIZE: 13
+COLOR: #331144
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: This is called gravitational time dilation.
+X: 470
+Y: 254
+SIZE: 16
+COLOR: #442255
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: Predicted by Einstein.
+X: 470
+Y: 284
+SIZE: 16
+COLOR: #442255
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: Confirmed by GPS satellites —
+X: 470
+Y: 314
+SIZE: 16
+COLOR: #442255
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: which run fast without correction.
+X: 470
+Y: 344
+SIZE: 16
+COLOR: #442255
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: You use time dilation
+X: 470
+Y: 392
+SIZE: 18
+COLOR: #7733aa
+ANIMATION: fade-in
+DURATION: 2.8s
+
+TYPE: text
+TEXT: every time you use Maps.
+X: 470
+Y: 420
+SIZE: 18
+COLOR: #aa55ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 3.2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #0a0500 60%, #000000 100%)
+
+TYPE: circle
+X: 500
+Y: -60
+SIZE: 480
+COLOR: #221100
+
+TYPE: circle
+X: -60
+Y: 300
+SIZE: 320
+COLOR: #330800
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=420&q=80
+X: 450
+Y: 54
+WIDTH: 410
+HEIGHT: 440
+
+TYPE: text
+TEXT: Spaghettification.
+X: 56
+Y: 56
+SIZE: 42
+COLOR: #ff6600
+BOLD: true
+ANIMATION: slide-right
+DURATION: 0.8s
+
+TYPE: text
+TEXT: The universe's most
+X: 58
+Y: 122
+SIZE: 22
+COLOR: #554433
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: violent stretch.
+X: 58
+Y: 154
+SIZE: 36
+COLOR: #ff4400
+BOLD: true
+ANIMATION: slide-up
+DURATION: 1s
+
+TYPE: text
+TEXT: Tidal forces near a singularity
+X: 58
+Y: 238
+SIZE: 17
+COLOR: #443322
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: pull your feet faster than your head.
+X: 58
+Y: 264
+SIZE: 17
+COLOR: #443322
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: You stretch.
+X: 58
+Y: 310
+SIZE: 30
+COLOR: #ff6600
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.7s
+DELAY: 0.4s
+
+TYPE: text
+TEXT: Then thinner.
+X: 58
+Y: 356
+SIZE: 30
+COLOR: #ff4400
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.7s
+DELAY: 0.8s
+
+TYPE: text
+TEXT: Then you become a stream
+X: 58
+Y: 402
+SIZE: 18
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: of individual atoms.
+X: 58
+Y: 430
+SIZE: 18
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2.7s
+
+TYPE: text
+TEXT: Physics calls it tidal disruption.
+X: 58
+Y: 478
+SIZE: 13
+COLOR: #220800
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 3.2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #060000 40%, #000008 100%)
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 420
+COLOR: #220000
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 260
+COLOR: #440800
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 140
+COLOR: #cc4400
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 60
+COLOR: #ff9900
+
+TYPE: circle
+X: 400
+Y: 220
+SIZE: 20
+COLOR: #ffee00
+
+TYPE: text
+TEXT: We saw one.
+X: 56
+Y: 52
+SIZE: 54
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: April 10, 2019.
+X: 56
+Y: 124
+SIZE: 32
+COLOR: #ff6600
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.1s
+
+TYPE: text
+TEXT: 200 scientists.  8 telescopes.
+X: 56
+Y: 174
+SIZE: 20
+COLOR: #553311
+ANIMATION: slide-right
+DURATION: 1.4s
+
+TYPE: text
+TEXT: One planet-sized antenna.
+X: 56
+Y: 204
+SIZE: 20
+COLOR: #553311
+ANIMATION: slide-right
+DURATION: 1.6s
+
+TYPE: text
+TEXT: And one blurry orange ring
+X: 660
+Y: 52
+SIZE: 18
+COLOR: #663311
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: that broke the internet.
+X: 660
+Y: 80
+SIZE: 18
+COLOR: #ff6600
+BOLD: true
+ANIMATION: fade-in
+DURATION: 2.1s
+
+TYPE: box
+X: 620
+Y: 120
+WIDTH: 240
+HEIGHT: 70
+COLOR: #0a0200
+
+TYPE: text
+TEXT: M87* Black Hole
+X: 636
+Y: 136
+SIZE: 13
+COLOR: #aa5500
+BOLD: true
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: Mass: 6.5 billion suns
+X: 636
+Y: 158
+SIZE: 12
+COLOR: #442200
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: Distance: 55 million light-years
+X: 58
+Y: 374
+SIZE: 16
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2.8s
+
+TYPE: text
+TEXT: Size of shadow: larger than our solar system.
+X: 58
+Y: 402
+SIZE: 16
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 3.1s
+
+TYPE: text
+TEXT: Dr. Katie Bouman wrote the algorithm that made it possible.
+X: 58
+Y: 452
+SIZE: 14
+COLOR: #220800
+ANIMATION: fade-in
+DURATION: 3.6s
+
+TYPE: text
+TEXT: She was 29 years old.
+X: 58
+Y: 478
+SIZE: 18
+COLOR: #ff6600
+BOLD: true
+ANIMATION: fade-in
+DURATION: 4s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #000306 60%, #000000 100%)
+
+TYPE: circle
+X: 300
+Y: 200
+SIZE: 600
+COLOR: #000822
+
+TYPE: circle
+X: 600
+Y: 100
+SIZE: 280
+COLOR: #001133
+
+TYPE: circle
+X: 740
+Y: 400
+SIZE: 180
+COLOR: #0033aa
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=480&q=80
+X: 56
+Y: 44
+WIDTH: 400
+HEIGHT: 480
+
+TYPE: text
+TEXT: Sagittarius A*
+X: 494
+Y: 52
+SIZE: 42
+COLOR: #4488ff
+BOLD: true
+ANIMATION: slide-left
+DURATION: 0.8s
+
+TYPE: text
+TEXT: Our galaxy's black hole.
+X: 494
+Y: 112
+SIZE: 20
+COLOR: #334466
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Right now, 26,000 light-years
+X: 494
+Y: 160
+SIZE: 17
+COLOR: #223355
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: from where you're sitting,
+X: 494
+Y: 186
+SIZE: 17
+COLOR: #223355
+ANIMATION: fade-in
+DURATION: 1.7s
+
+TYPE: text
+TEXT: at the center of the Milky Way,
+X: 494
+Y: 212
+SIZE: 17
+COLOR: #223355
+ANIMATION: fade-in
+DURATION: 1.9s
+
+TYPE: text
+TEXT: a monster spins.
+X: 494
+Y: 238
+SIZE: 28
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 0.6s
+
+TYPE: box
+X: 494
+Y: 296
+WIDTH: 360
+HEIGHT: 170
+COLOR: #000810
+
+TYPE: text
+TEXT: Mass:  4 million suns
+X: 510
+Y: 314
+SIZE: 14
+COLOR: #336699
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: Diameter:  44 million km
+X: 510
+Y: 338
+SIZE: 14
+COLOR: #336699
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: Rotation:  ~60% speed of light
+X: 510
+Y: 362
+SIZE: 14
+COLOR: #336699
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: Imaged:    May 12, 2022
+X: 510
+Y: 386
+SIZE: 14
+COLOR: #4499ff
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 2.8s
+
+TYPE: text
+TEXT: Threat to Earth:  zero
+X: 510
+Y: 410
+SIZE: 14
+COLOR: #336699
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 3s
+
+TYPE: text
+TEXT: It's been there since the galaxy formed.
+X: 494
+Y: 492
+SIZE: 14
+COLOR: #112233
+ANIMATION: fade-in
+DURATION: 3.4s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #080010 50%, #000808 100%)
+
+TYPE: circle
+X: -100
+Y: -100
+SIZE: 500
+COLOR: #110033
+
+TYPE: circle
+X: 680
+Y: -60
+SIZE: 380
+COLOR: #003322
+
+TYPE: circle
+X: 760
+Y: 440
+SIZE: 220
+COLOR: #220044
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=380&q=80
+X: 490
+Y: 48
+WIDTH: 374
+HEIGHT: 470
+
+TYPE: text
+TEXT: What Lies Beyond?
+X: 56
+Y: 56
+SIZE: 42
+COLOR: #aa44ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: Nobody knows.
+X: 56
+Y: 118
+SIZE: 52
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: Four theories compete:
+X: 58
+Y: 210
+SIZE: 18
+COLOR: #443355
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: shape
+SHAPE: circle
+X: 62
+Y: 248
+WIDTH: 14
+HEIGHT: 14
+FILL: #9900ff
+BORDER: #aa00ff
+
+TYPE: text
+TEXT: A singularity of infinite density
+X: 86
+Y: 244
+SIZE: 16
+COLOR: #553366
+ANIMATION: slide-right
+DURATION: 1.4s
+
+TYPE: shape
+SHAPE: circle
+X: 62
+Y: 282
+WIDTH: 14
+HEIGHT: 14
+FILL: #0044ff
+BORDER: #0055ff
+
+TYPE: text
+TEXT: A portal to another universe
+X: 86
+Y: 278
+SIZE: 16
+COLOR: #334455
+ANIMATION: slide-right
+DURATION: 1.6s
+
+TYPE: shape
+SHAPE: circle
+X: 62
+Y: 316
+WIDTH: 14
+HEIGHT: 14
+FILL: #00aa66
+BORDER: #00cc77
+
+TYPE: text
+TEXT: A hologram — information encoded on the surface
+X: 86
+Y: 312
+SIZE: 16
+COLOR: #334433
+ANIMATION: slide-right
+DURATION: 1.8s
+
+TYPE: shape
+SHAPE: circle
+X: 62
+Y: 350
+WIDTH: 14
+HEIGHT: 14
+FILL: #ff6600
+BORDER: #ff7700
+
+TYPE: text
+TEXT: Something entirely outside current math
+X: 86
+Y: 346
+SIZE: 16
+COLOR: #554433
+ANIMATION: slide-right
+DURATION: 2s
+
+TYPE: text
+TEXT: Stephen Hawking spent 40 years
+X: 58
+Y: 416
+SIZE: 17
+COLOR: #2a1a44
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: trying to answer this question.
+X: 58
+Y: 444
+SIZE: 17
+COLOR: #2a1a44
+ANIMATION: fade-in
+DURATION: 2.7s
+
+TYPE: text
+TEXT: He changed his answer three times.
+X: 58
+Y: 480
+SIZE: 20
+COLOR: #8833ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 3.1s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #030008 40%, #000a0a 100%)
+
+TYPE: circle
+X: 200
+Y: 100
+SIZE: 580
+COLOR: #0a0022
+
+TYPE: circle
+X: 660
+Y: -80
+SIZE: 400
+COLOR: #000a18
+
+TYPE: circle
+X: 740
+Y: 440
+SIZE: 260
+COLOR: #001122
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=820&q=80
+X: 56
+Y: 44
+WIDTH: 788
+HEIGHT: 260
+
+TYPE: text
+TEXT: The closest black hole
+X: 56
+Y: 342
+SIZE: 30
+COLOR: #4488ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: is 1,011 light-years away.
+X: 56
+Y: 388
+SIZE: 42
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: One light-year = 9.46 trillion km.
+X: 58
+Y: 452
+SIZE: 16
+COLOR: #223344
+FONT: monospace
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: You could travel your entire life and not move a nanometer closer.
+X: 58
+Y: 482
+SIZE: 14
+COLOR: #112233
+ANIMATION: fade-in
+DURATION: 2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #040010 60%, #000000 100%)
+
+TYPE: circle
+X: 340
+Y: 180
+SIZE: 560
+COLOR: #0d0030
+
+TYPE: circle
+X: 340
+Y: 180
+SIZE: 360
+COLOR: #1a0055
+
+TYPE: circle
+X: 340
+Y: 180
+SIZE: 200
+COLOR: #3300aa
+
+TYPE: circle
+X: 340
+Y: 180
+SIZE: 100
+COLOR: #6600ff
+
+TYPE: circle
+X: 340
+Y: 180
+SIZE: 40
+COLOR: #ffffff
+
+TYPE: text
+TEXT: They make us
+X: 54
+Y: 370
+SIZE: 36
+COLOR: #443366
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: beautifully small.
+X: 54
+Y: 418
+SIZE: 54
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 1s
+
+TYPE: text
+TEXT: Sagittarius A* could swallow
+X: 620
+Y: 56
+SIZE: 16
+COLOR: #221133
+ANIMATION: slide-left
+DURATION: 1.2s
+
+TYPE: text
+TEXT: every human who ever lived
+X: 620
+Y: 80
+SIZE: 16
+COLOR: #221133
+ANIMATION: slide-left
+DURATION: 1.4s
+
+TYPE: text
+TEXT: in less than a nanosecond.
+X: 620
+Y: 104
+SIZE: 16
+COLOR: #6600ff
+ANIMATION: slide-left
+DURATION: 1.6s
+
+TYPE: text
+TEXT: Yet here we are —
+X: 620
+Y: 158
+SIZE: 20
+COLOR: #332244
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: a species that found it,
+X: 620
+Y: 188
+SIZE: 20
+COLOR: #332244
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: named it,
+X: 620
+Y: 218
+SIZE: 20
+COLOR: #332244
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: photographed it,
+X: 620
+Y: 248
+SIZE: 20
+COLOR: #332244
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: and wrote poems about it.
+X: 620
+Y: 278
+SIZE: 20
+COLOR: #aa66ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 2.9s
+
+TYPE: text
+TEXT: That's not small.
+X: 620
+Y: 334
+SIZE: 26
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 0.8s
+
+TYPE: text
+TEXT: That's extraordinary.
+X: 620
+Y: 376
+SIZE: 26
+COLOR: #9944ff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 1.2s
+
+TYPE: text
+TEXT: ✦  Made with jagdoc
+X: 54
+Y: 504
+SIZE: 11
+COLOR: #0d0022
+ANIMATION: fade-in
+DURATION: 4s

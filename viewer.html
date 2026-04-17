@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#050510" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="jagdoc." />
+    <link rel="manifest" href="manifest.json" />
+    <title>Jagdoc Viewer</title>
+    <style>
+      /* ─── Reset ───────────────────────────────────────────── */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #050510;
+        font-family: -apple-system, "Segoe UI", sans-serif;
+        color: #e2e8f0;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      /* ─── Welcome ─────────────────────────────────────────── */
+      #welcome {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(
+          ellipse at 25% 20%,
+          #1a0535 0%,
+          #050510 65%
+        );
+      }
+
+      .wcard {
+        text-align: center;
+        padding: 44px 28px;
+        width: 90%;
+        max-width: 340px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 24px;
+      }
+
+      .wlogo {
+        font-size: 44px;
+        font-weight: 900;
+        color: #6366f1;
+        letter-spacing: -2px;
+      }
+
+      .wlogo b {
+        color: #fff;
+        font-weight: 900;
+      }
+
+      .wsub {
+        font-size: 14px;
+        color: #3f4966;
+        margin: 12px 0 32px;
+        line-height: 1.6;
+      }
+
+      .wbtn {
+        display: inline-block;
+        padding: 15px 36px;
+        background: #6366f1;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 14px;
+        cursor: pointer;
+        letter-spacing: 0.2px;
+        transition:
+          background 0.15s,
+          transform 0.1s;
+      }
+
+      .wbtn:active {
+        transform: scale(0.96);
+        background: #5558e8;
+      }
+
+      .whint {
+        font-size: 11px;
+        color: #1a1a30;
+        margin-top: 18px;
+      }
+
+      /* ─── Viewer shell ────────────────────────────────────── */
+      #viewer {
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        display: none;
+        flex-direction: column;
+        background: #030308;
+      }
+
+      /* ─── Header ──────────────────────────────────────────── */
+      #hdr {
+        height: 50px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 14px;
+        background: rgba(3, 3, 12, 0.95);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        z-index: 20;
+      }
+
+      .hlogo {
+        font-size: 16px;
+        font-weight: 900;
+        color: #6366f1;
+        letter-spacing: -0.5px;
+        white-space: nowrap;
+      }
+
+      .hlogo b {
+        color: #fff;
+      }
+
+      .hfile {
+        font-size: 11px;
+        color: #2a3050;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .hcount {
+        font-size: 12px;
+        color: #3a4060;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .hbtn {
+        flex-shrink: 0;
+        padding: 5px 13px;
+        background: #111128;
+        border: 1px solid #222240;
+        border-radius: 8px;
+        color: #6366f1;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s;
+        white-space: nowrap;
+      }
+
+      .hbtn:active {
+        background: #1e1e40;
+      }
+
+      .hicon {
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        background: #111128;
+        border: 1px solid #222240;
+        color: #6366f1;
+        font-size: 15px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.15s;
+      }
+
+      .hicon:active {
+        background: #1e1e40;
+      }
+
+      .hicon.active {
+        background: #1e1e50;
+        border-color: #6366f1;
+      }
+
+      /* ─── Mode toggle pill ────────────────────────────────── */
+      .mode-toggle {
+        display: flex;
+        flex-shrink: 0;
+        background: #0a0a18;
+        border: 1px solid #1e1e3a;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .mode-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+        font-weight: 600;
+        color: #3a4060;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        transition:
+          background 0.15s,
+          color 0.15s;
+        white-space: nowrap;
+      }
+
+      .mode-btn.on {
+        background: #1e1e40;
+        color: #818cf8;
+      }
+
+      /* ─── Slide mode: canvas stage ────────────────────────── */
+      #stage {
+        flex: 1;
+        position: relative;
+        overflow: hidden;
+        background: #020208;
+        background-image: radial-gradient(circle, #0e0e1e 1px, transparent 1px);
+        background-size: 26px 26px;
+      }
+
+      #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 900px;
+        height: 540px;
+        transform-origin: 0 0;
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.04),
+          0 20px 80px rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+      }
+
+      .arr {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 30;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(10, 10, 30, 0.7);
+        border: 1px solid rgba(99, 102, 241, 0.25);
+        color: #6366f1;
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.15s;
+        backdrop-filter: blur(6px);
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      .arr:active {
+        background: rgba(99, 102, 241, 0.2);
+      }
+
+      .arr[disabled] {
+        opacity: 0.15;
+        pointer-events: none;
+      }
+
+      #aprev {
+        left: 10px;
+      }
+
+      #anext {
+        right: 10px;
+      }
+
+      /* ─── Dots bar ────────────────────────────────────────── */
+      #dots {
+        flex-shrink: 0;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        background: #020208;
+        padding: 0 12px;
+      }
+
+      .dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #1a1a30;
+        cursor: pointer;
+        transition:
+          background 0.2s,
+          transform 0.2s;
+        flex-shrink: 0;
+      }
+
+      .dot.on {
+        background: #6366f1;
+        transform: scale(1.5);
+      }
+
+      /* ─── PDF / scroll mode ───────────────────────────────── */
+      #scroll-view {
+        display: none;
+        flex: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background: #010108;
+        background-image: radial-gradient(circle, #0e0e1e 1px, transparent 1px);
+        background-size: 26px 26px;
+        padding: 28px 0 48px;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .pdf-page-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+
+      /* outer box: correct visual size in layout flow, clips scaled inner */
+      .pdf-page-box {
+        position: relative;
+        overflow: hidden;
+        flex-shrink: 0;
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.05),
+          0 12px 50px rgba(0, 0, 0, 0.8);
+      }
+
+      /* inner 900×540 canvas scaled down via transform */
+      .pdf-page-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 900px;
+        height: 540px;
+        transform-origin: 0 0;
+      }
+
+      .pdf-label {
+        text-align: center;
+        font-size: 10px;
+        color: #1e1e38;
+        margin-top: 8px;
+        letter-spacing: 0.06em;
+      }
+
+      /* ─── Elements ────────────────────────────────────────── */
+      .el {
+        position: absolute;
+        opacity: 0;
+      }
+
+      .el.show {
+        opacity: 1;
+        transition: opacity 0.5s ease 0.05s;
+      }
+
+      .el.fade-in.show {
+        animation: aFade var(--d, 1s) var(--delay, 0s) both;
+      }
+
+      .el.slide-left.show {
+        animation: aSlideLeft var(--d, 1s) var(--delay, 0s) both;
+      }
+
+      .el.slide-right.show {
+        animation: aSlideRight var(--d, 1s) var(--delay, 0s) both;
+      }
+
+      .el.slide-up.show {
+        animation: aSlideUp var(--d, 1s) var(--delay, 0s) both;
+      }
+
+      .el.zoom-in.show {
+        animation: aZoom var(--d, 1s) var(--delay, 0s) both;
+      }
+
+      @keyframes aFade {
+        from {
+          opacity: 0;
+          transform: translateY(28px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @keyframes aSlideLeft {
+        from {
+          opacity: 0;
+          transform: translateX(70px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @keyframes aSlideRight {
+        from {
+          opacity: 0;
+          transform: translateX(-70px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @keyframes aSlideUp {
+        from {
+          opacity: 0;
+          transform: translateY(55px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @keyframes aZoom {
+        from {
+          opacity: 0;
+          transform: scale(0.55);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      /* ─── Toast ───────────────────────────────────────────── */
+      #toast {
+        display: none;
+        position: fixed;
+        bottom: 56px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #3d1010;
+        color: #fca5a5;
+        padding: 9px 18px;
+        border-radius: 10px;
+        font-size: 13px;
+        z-index: 99;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Welcome screen ──────────────────────────────────────── -->
+    <div id="welcome">
+      <div class="wcard">
+        <div class="wlogo">jagdoc<b>.</b></div>
+        <p class="wsub">
+          Open any .jagdoc file to view it as a smooth, animated experience.
+        </p>
+        <label class="wbtn">
+          Open .jagdoc file
+          <input id="fi1" type="file" accept=".jagdoc,text/plain,*/*" hidden />
+        </label>
+        <p class="whint">
+          Works on mobile &amp; desktop &nbsp;·&nbsp; No install needed
+        </p>
+      </div>
+    </div>
+
+    <!-- Viewer ──────────────────────────────────────────────── -->
+    <div id="viewer">
+      <div id="hdr">
+        <div class="hlogo">jagdoc<b>.</b></div>
+        <div class="hfile" id="hfile">—</div>
+        <div class="hcount" id="hcount">—</div>
+        <!-- Mode toggle -->
+        <div class="mode-toggle">
+          <button class="mode-btn on" id="mSlide" onclick="setMode('slide')">
+            ▦ Slides
+          </button>
+          <button class="mode-btn" id="mPdf" onclick="setMode('pdf')">
+            ☰ Scroll
+          </button>
+        </div>
+        <label class="hbtn"
+          >Open
+          <input id="fi2" type="file" accept=".jagdoc,text/plain,*/*" hidden
+        /></label>
+        <button
+          class="hicon"
+          id="fsBtn"
+          onclick="toggleFS()"
+          title="Fullscreen"
+        >
+          ⛶
+        </button>
+      </div>
+
+      <!-- Slide mode -->
+      <div id="stage">
+        <button class="arr" id="aprev" onclick="nav(-1)">&#8249;</button>
+        <div id="canvas"></div>
+        <button class="arr" id="anext" onclick="nav(1)">&#8250;</button>
+      </div>
+      <div id="dots"></div>
+
+      <!-- PDF / scroll mode -->
+      <div id="scroll-view"></div>
+    </div>
+
+    <div id="toast"></div>
+
+    <script>
+      // ─── State ────────────────────────────────────────────────────────────────────
+      let pages = [],
+        cur = 0,
+        viewMode = "slide";
+
+      // ─── Parser ───────────────────────────────────────────────────────────────────
+      function hasContent(el) {
+        return (
+          el &&
+          ["TEXT", "X", "Y", "SRC", "WIDTH", "HEIGHT", "FILL", "SHAPE"].some(
+            (k) => k in el,
+          )
+        );
+      }
+      function parse(raw) {
+        const out = [];
+        let page = null,
+          el = null;
+        const flush = () => {
+          if (el && page) page.elements.push(el);
+          el = null;
+        };
+        for (const raw_line of raw.split("\n")) {
+          const line = raw_line.trim();
+          if (!line) continue;
+          if (line === "PAGE") {
+            flush();
+            if (page) out.push(page);
+            page = { bg: "#111827", elements: [] };
+            continue;
+          }
+          if (line === "ELEMENT") {
+            flush();
+            el = { TYPE: "text" };
+            continue;
+          }
+          const ci = line.indexOf(":");
+          if (ci < 0) continue;
+          const k = line.slice(0, ci).trim().toUpperCase();
+          const v = line.slice(ci + 1).trim();
+          if (k === "BACKGROUND" && page) page.bg = v;
+          else if (k === "TYPE") {
+            if (!el || hasContent(el)) {
+              flush();
+              el = { TYPE: v };
+            } else el.TYPE = v;
+          } else if (el) el[k] = v;
+        }
+        flush();
+        if (page) out.push(page);
+        return out;
+      }
+
+      // ─── Build DOM element ────────────────────────────────────────────────────────
+      function build(el) {
+        const t = (el.TYPE || "text").toLowerCase(),
+          x = +el.X || 0,
+          y = +el.Y || 0,
+          a = el.ANIMATION || "";
+        let dom;
+        if (t === "text") {
+          dom = document.createElement("div");
+          dom.className = "el" + (a ? " " + a : "");
+          dom.style.cssText = `left:${x}px;top:${y}px;color:${el.COLOR || "#fff"};font-size:${el.SIZE || 20}px;font-weight:${el.BOLD === "true" ? "bold" : "normal"};font-family:${el.FONT ? el.FONT + ",sans-serif" : "inherit"};text-align:${el.ALIGN || "left"};white-space:nowrap;`;
+          dom.style.setProperty("--d", el.DURATION || "1s");
+          dom.style.setProperty("--delay", el.DELAY || "0s");
+          dom.textContent = el.TEXT || "";
+          return dom;
+        }
+        if (t === "circle") {
+          const sz = +el.SIZE || +el.WIDTH || 100;
+          dom = document.createElement("div");
+          dom.className = "el";
+          dom.style.cssText = `left:${x}px;top:${y}px;width:${sz}px;height:${sz}px;background:${el.COLOR || el.FILL || "#fff"};border-radius:50%;filter:blur(60px);`;
+          return dom;
+        }
+        if (t === "box") {
+          dom = document.createElement("div");
+          dom.className = "el";
+          dom.style.cssText = `left:${x}px;top:${y}px;width:${el.WIDTH || 100}px;height:${el.HEIGHT || 100}px;background:${el.COLOR || el.FILL || "#fff"};border-radius:10px;`;
+          return dom;
+        }
+        if (t === "shape") {
+          dom = document.createElement("div");
+          dom.className = "el";
+          dom.style.cssText = `left:${x}px;top:${y}px;width:${el.WIDTH || 200}px;height:${el.HEIGHT || 120}px;background:${el.FILL || "rgba(99,102,241,.3)"};border:2px solid ${el.BORDER || "#6366f1"};border-radius:${el.SHAPE === "circle" ? "50%" : "8px"};`;
+          return dom;
+        }
+        if (t === "image") {
+          dom = document.createElement("img");
+          dom.className = "el" + (a ? " " + a : "");
+          dom.src = el.SRC || "";
+          dom.alt = "";
+          dom.style.cssText = `left:${x}px;top:${y}px;width:${el.WIDTH || 280}px;${el.HEIGHT ? "height:" + el.HEIGHT + "px;" : "height:auto;"}object-fit:cover;border-radius:10px;`;
+          dom.style.setProperty("--d", el.DURATION || "1s");
+          dom.style.setProperty("--delay", el.DELAY || "0s");
+          return dom;
+        }
+        return null;
+      }
+
+      function populateCanvas(container, page) {
+        container.style.background = page.bg;
+        container.innerHTML = "";
+        page.elements.forEach((el) => {
+          const d = build(el);
+          if (d) container.appendChild(d);
+        });
+      }
+
+      function revealEls(container) {
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            container
+              .querySelectorAll(".el")
+              .forEach((el) => el.classList.add("show"));
+          }),
+        );
+      }
+
+      // ─── Slide mode ───────────────────────────────────────────────────────────────
+      function fit() {
+        const W = window.innerWidth;
+        const H = window.innerHeight;
+        const HDR = 50,
+          DOTS = viewMode === "slide" ? 42 : 0;
+        const stageH = H - HDR - DOTS;
+        const scale = Math.min(W / 900, stageH / 540) * 0.97;
+        const sw = 900 * scale,
+          sh = 540 * scale;
+        const tx = (W - sw) / 2;
+        const ty = (stageH - sh) / 2;
+        const c = document.getElementById("canvas");
+        c.style.transform = `translate(${tx}px,${ty}px) scale(${scale})`;
+      }
+
+      function show(i) {
+        if (!pages.length) return;
+        i = Math.max(0, Math.min(pages.length - 1, i));
+        cur = i;
+        const canvas = document.getElementById("canvas");
+        populateCanvas(canvas, pages[i]);
+        revealEls(canvas);
+        updateSlideUI();
+      }
+
+      function nav(d) {
+        show(cur + d);
+      }
+
+      function updateSlideUI() {
+        document.getElementById("hcount").textContent =
+          `${cur + 1} / ${pages.length}`;
+        document.getElementById("aprev").disabled = cur === 0;
+        document.getElementById("anext").disabled = cur === pages.length - 1;
+        const bar = document.getElementById("dots");
+        bar.innerHTML = "";
+        const step = pages.length <= 12 ? 1 : Math.ceil(pages.length / 12);
+        pages.forEach((_, i) => {
+          if (i % step !== 0 && i !== pages.length - 1) return;
+          const d = document.createElement("div");
+          d.className = "dot" + (i === cur ? " on" : "");
+          d.onclick = () => show(i);
+          bar.appendChild(d);
+        });
+      }
+
+      // ─── PDF / scroll mode ────────────────────────────────────────────────────────
+      function buildScrollView() {
+        const sv = document.getElementById("scroll-view");
+        sv.innerHTML = "";
+
+        // Scale so pages fill 96% of screen width (never upscale beyond 1)
+        const scale = Math.min((window.innerWidth * 0.96) / 900, 1);
+        const pw = Math.round(900 * scale);
+        const ph = Math.round(540 * scale);
+
+        pages.forEach((page, i) => {
+          const wrap = document.createElement("div");
+          wrap.className = "pdf-page-wrap";
+
+          // Outer box: occupies correct space in layout (pw × ph), clips overflow
+          const box = document.createElement("div");
+          box.className = "pdf-page-box";
+          box.style.width = pw + "px";
+          box.style.height = ph + "px";
+
+          // Inner canvas: always 900×540, scaled down via CSS transform
+          const inner = document.createElement("div");
+          inner.className = "pdf-page-inner";
+          inner.style.transform = `scale(${scale})`;
+          populateCanvas(inner, page);
+
+          box.appendChild(inner);
+
+          const lbl = document.createElement("div");
+          lbl.className = "pdf-label";
+          lbl.textContent = `Page ${i + 1} of ${pages.length}`;
+
+          wrap.appendChild(box);
+          wrap.appendChild(lbl);
+          sv.appendChild(wrap);
+        });
+
+        // Animate each page as it scrolls into view
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                revealEls(entry.target.querySelector(".pdf-page-inner"));
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.1 },
+        );
+        sv.querySelectorAll(".pdf-page-box").forEach((p) => io.observe(p));
+
+        document.getElementById("hcount").textContent = `${pages.length} pages`;
+      }
+
+      // ─── Mode switching ───────────────────────────────────────────────────────────
+      function setMode(mode) {
+        viewMode = mode;
+        const stage = document.getElementById("stage");
+        const dots = document.getElementById("dots");
+        const sv = document.getElementById("scroll-view");
+
+        document
+          .getElementById("mSlide")
+          .classList.toggle("on", mode === "slide");
+        document.getElementById("mPdf").classList.toggle("on", mode === "pdf");
+
+        if (mode === "slide") {
+          stage.style.display = "block";
+          dots.style.display = "flex";
+          sv.style.display = "none";
+          fit();
+          show(cur);
+        } else {
+          stage.style.display = "none";
+          dots.style.display = "none";
+          sv.style.display = "block";
+          buildScrollView();
+        }
+      }
+
+      // ─── Load file ────────────────────────────────────────────────────────────────
+      function load(file) {
+        if (!file) return;
+        const r = new FileReader();
+        r.onload = (e) => {
+          try {
+            pages = parse(e.target.result);
+            if (!pages.length) {
+              toast("No pages found.");
+              return;
+            }
+            cur = 0;
+            document.getElementById("hfile").textContent = file.name;
+            document.getElementById("welcome").style.display = "none";
+            const v = document.getElementById("viewer");
+            v.style.display = "flex";
+            requestAnimationFrame(() => {
+              setMode(viewMode);
+            });
+          } catch (err) {
+            toast("Could not parse file: " + err.message);
+          }
+        };
+        r.readAsText(file);
+      }
+
+      function toast(msg) {
+        const t = document.getElementById("toast");
+        t.textContent = msg;
+        t.style.display = "block";
+        setTimeout(() => (t.style.display = "none"), 3000);
+      }
+
+      // ─── Fullscreen ───────────────────────────────────────────────────────────────
+      function toggleFS() {
+        if (!document.fullscreenElement) {
+          (
+            document.documentElement.requestFullscreen ||
+            document.documentElement.webkitRequestFullscreen
+          ).call(document.documentElement);
+        } else {
+          (document.exitFullscreen || document.webkitExitFullscreen).call(
+            document,
+          );
+        }
+      }
+      document.addEventListener("fullscreenchange", () => {
+        document.getElementById("fsBtn").textContent =
+          document.fullscreenElement ? "✕" : "⛶";
+        if (viewMode === "slide") fit();
+        else buildScrollView();
+      });
+      document.addEventListener("webkitfullscreenchange", () => {
+        if (viewMode === "slide") fit();
+        else buildScrollView();
+      });
+
+      // ─── Events ───────────────────────────────────────────────────────────────────
+      document.getElementById("fi1").onchange = (e) => load(e.target.files[0]);
+      document.getElementById("fi2").onchange = (e) => load(e.target.files[0]);
+
+      window.addEventListener("resize", () => {
+        if (viewMode === "slide") fit();
+        else buildScrollView();
+      });
+
+      // Keyboard (slide mode only)
+      document.addEventListener("keydown", (e) => {
+        if (viewMode !== "slide") return;
+        const map = {
+          ArrowRight: 1,
+          ArrowDown: 1,
+          " ": 1,
+          ArrowLeft: -1,
+          ArrowUp: -1,
+        };
+        if (map[e.key]) {
+          e.preventDefault();
+          nav(map[e.key]);
+        }
+        if (e.key === "Home") show(0);
+        if (e.key === "End") show(pages.length - 1);
+      });
+
+      // Scroll wheel — navigate in slide mode
+      let scrollCooldown = false;
+      document.getElementById("stage").addEventListener(
+        "wheel",
+        (e) => {
+          e.preventDefault();
+          if (scrollCooldown) return;
+          scrollCooldown = true;
+          nav(e.deltaY > 0 ? 1 : -1);
+          setTimeout(() => (scrollCooldown = false), 600);
+        },
+        { passive: false },
+      );
+
+      // Swipe — slide mode
+      let sx = 0,
+        sy = 0;
+      document.addEventListener(
+        "touchstart",
+        (e) => {
+          sx = e.touches[0].clientX;
+          sy = e.touches[0].clientY;
+        },
+        { passive: true },
+      );
+      document.addEventListener(
+        "touchend",
+        (e) => {
+          if (viewMode !== "slide") return;
+          const dx = e.changedTouches[0].clientX - sx,
+            dy = e.changedTouches[0].clientY - sy;
+          if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40)
+            nav(dx < 0 ? 1 : -1);
+        },
+        { passive: true },
+      );
+
+      // Drag-drop onto welcome
+      const wc = document.getElementById("welcome");
+      wc.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        wc.style.background = "rgba(99,102,241,.07)";
+      });
+      wc.addEventListener("dragleave", () => (wc.style.background = ""));
+      wc.addEventListener("drop", (e) => {
+        e.preventDefault();
+        wc.style.background = "";
+        const f = [...e.dataTransfer.files][0];
+        f ? load(f) : toast("Please drop a .jagdoc file.");
+      });
+
+      // ── PWA service worker ────────────────────────────────────────────────
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+      }
+    </script>
+  </body>
+</html>

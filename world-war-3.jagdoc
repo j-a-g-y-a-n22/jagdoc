@@ -1,0 +1,951 @@
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #120000 60%, #050000 100%)
+
+TYPE: circle
+X: -120
+Y: -100
+SIZE: 520
+COLOR: #880000
+
+TYPE: circle
+X: 620
+Y: 300
+SIZE: 380
+COLOR: #550000
+
+TYPE: circle
+X: 400
+Y: -80
+SIZE: 260
+COLOR: #cc2200
+
+TYPE: text
+TEXT: WORLD
+X: 54
+Y: 62
+SIZE: 108
+COLOR: #1a0000
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.4s
+
+TYPE: text
+TEXT: WAR
+X: 54
+Y: 178
+SIZE: 108
+COLOR: #cc0000
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+
+TYPE: text
+TEXT: III
+X: 54
+Y: 294
+SIZE: 108
+COLOR: #ff2200
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 1.1s
+
+TYPE: text
+TEXT: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X: 54
+Y: 416
+SIZE: 12
+COLOR: #220000
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: A story the world hoped would never be written.
+X: 56
+Y: 448
+SIZE: 16
+COLOR: #330000
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=420&q=80
+X: 530
+Y: 48
+WIDTH: 340
+HEIGHT: 440
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #080000 0%, #100500 100%)
+
+TYPE: circle
+X: 700
+Y: -80
+SIZE: 440
+COLOR: #770000
+
+TYPE: circle
+X: -60
+Y: 280
+SIZE: 300
+COLOR: #440011
+
+TYPE: text
+TEXT: How did we get here?
+X: 56
+Y: 58
+SIZE: 44
+COLOR: #ff3300
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: Years of tension. Broken treaties.
+X: 58
+Y: 130
+SIZE: 22
+COLOR: #883322
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: Borders drawn in blood.
+X: 58
+Y: 164
+SIZE: 22
+COLOR: #883322
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: text
+TEXT: Leaders who chose pride over peace.
+X: 58
+Y: 198
+SIZE: 22
+COLOR: #883322
+ANIMATION: slide-right
+DURATION: 1.6s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=480&q=80
+X: 58
+Y: 270
+WIDTH: 440
+HEIGHT: 230
+
+TYPE: text
+TEXT: Three alliances.
+X: 530
+Y: 270
+SIZE: 32
+COLOR: #ff4400
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: One flashpoint.
+X: 530
+Y: 320
+SIZE: 32
+COLOR: #ff6600
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: No way back.
+X: 530
+Y: 370
+SIZE: 32
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: It began on a Tuesday.
+X: 530
+Y: 438
+SIZE: 14
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2.4s
+
+
+PAGE
+BACKGROUND: linear-gradient(180deg, #040000 0%, #0a0200 100%)
+
+TYPE: circle
+X: -100
+Y: -60
+SIZE: 480
+COLOR: #990000
+
+TYPE: circle
+X: 660
+Y: 350
+SIZE: 320
+COLOR: #331100
+
+TYPE: text
+TEXT: The First Strike
+X: 56
+Y: 58
+SIZE: 54
+COLOR: #ff2200
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=460&q=80
+X: 440
+Y: 40
+WIDTH: 430
+HEIGHT: 300
+
+TYPE: text
+TEXT: 04:17 AM.
+X: 58
+Y: 140
+SIZE: 36
+COLOR: #cc4400
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: The sirens didn't warn them.
+X: 58
+Y: 192
+SIZE: 20
+COLOR: #553322
+ANIMATION: slide-up
+DURATION: 1.2s
+
+TYPE: text
+TEXT: They were already too late.
+X: 58
+Y: 224
+SIZE: 20
+COLOR: #553322
+ANIMATION: slide-up
+DURATION: 1.5s
+
+TYPE: text
+TEXT: Missiles crossed three borders
+X: 58
+Y: 290
+SIZE: 18
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: in under four minutes.
+X: 58
+Y: 318
+SIZE: 18
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: The age of warning was over.
+X: 58
+Y: 360
+SIZE: 22
+COLOR: #881100
+BOLD: true
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=400&q=80
+X: 58
+Y: 400
+WIDTH: 380
+HEIGHT: 120
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #060008 100%)
+
+TYPE: circle
+X: 400
+Y: 100
+SIZE: 500
+COLOR: #550033
+
+TYPE: circle
+X: -80
+Y: 350
+SIZE: 280
+COLOR: #220044
+
+TYPE: text
+TEXT: Cities fell silent.
+X: 56
+Y: 58
+SIZE: 52
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=460&q=80
+X: 56
+Y: 136
+WIDTH: 380
+HEIGHT: 230
+
+TYPE: text
+TEXT: Streets that once held millions
+X: 470
+Y: 136
+SIZE: 20
+COLOR: #553344
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: became corridors of ash.
+X: 470
+Y: 168
+SIZE: 20
+COLOR: #553344
+ANIMATION: fade-in
+DURATION: 1.5s
+
+TYPE: text
+TEXT: Power grids — gone.
+X: 470
+Y: 230
+SIZE: 22
+COLOR: #880044
+ANIMATION: slide-left
+DURATION: 1s
+
+TYPE: text
+TEXT: Hospitals — overwhelmed.
+X: 470
+Y: 270
+SIZE: 22
+COLOR: #880044
+ANIMATION: slide-left
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Schools — empty.
+X: 470
+Y: 310
+SIZE: 22
+COLOR: #880044
+ANIMATION: slide-left
+DURATION: 1.4s
+
+TYPE: text
+TEXT: The war didn't ask
+X: 56
+Y: 400
+SIZE: 26
+COLOR: #442233
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: who was innocent.
+X: 56
+Y: 438
+SIZE: 26
+COLOR: #cc0044
+BOLD: true
+ANIMATION: fade-in
+DURATION: 2.4s
+
+
+PAGE
+BACKGROUND: linear-gradient(135deg, #000000 0%, #050500 60%, #080000 100%)
+
+TYPE: circle
+X: 300
+Y: -60
+SIZE: 600
+COLOR: #221100
+
+TYPE: circle
+X: 700
+Y: 400
+SIZE: 280
+COLOR: #440000
+
+TYPE: text
+TEXT: The Nuclear Question
+X: 56
+Y: 56
+SIZE: 46
+COLOR: #ff6600
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1594395051753-bc6d4db69a93?w=380&q=80
+X: 490
+Y: 44
+WIDTH: 380
+HEIGHT: 280
+
+TYPE: text
+TEXT: On Day 12, the unthinkable
+X: 58
+Y: 142
+SIZE: 22
+COLOR: #664422
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: text
+TEXT: became thinkable.
+X: 58
+Y: 176
+SIZE: 38
+COLOR: #ff4400
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: Three nations placed their
+X: 58
+Y: 252
+SIZE: 20
+COLOR: #553311
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: fingers on the button.
+X: 58
+Y: 282
+SIZE: 20
+COLOR: #553311
+ANIMATION: fade-in
+DURATION: 1.8s
+
+TYPE: text
+TEXT: The world held its breath.
+X: 58
+Y: 346
+SIZE: 32
+COLOR: #ff6600
+BOLD: true
+ANIMATION: slide-up
+DURATION: 1.2s
+DELAY: 0.6s
+
+TYPE: text
+TEXT: For 72 hours.
+X: 58
+Y: 396
+SIZE: 44
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 1s
+
+TYPE: text
+TEXT: 72 hours that changed what humanity meant.
+X: 56
+Y: 476
+SIZE: 14
+COLOR: #221100
+ANIMATION: fade-in
+DURATION: 2.8s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #000a08 100%)
+
+TYPE: circle
+X: -80
+Y: -80
+SIZE: 460
+COLOR: #003322
+
+TYPE: circle
+X: 620
+Y: 280
+SIZE: 360
+COLOR: #004400
+
+TYPE: text
+TEXT: The Human Cost
+X: 56
+Y: 58
+SIZE: 50
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=380&q=80
+X: 56
+Y: 140
+WIDTH: 340
+HEIGHT: 220
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=380&q=80
+X: 490
+Y: 140
+WIDTH: 370
+HEIGHT: 220
+
+TYPE: text
+TEXT: 140 million displaced.
+X: 58
+Y: 392
+SIZE: 26
+COLOR: #cc4400
+BOLD: true
+ANIMATION: slide-right
+DURATION: 1s
+
+TYPE: text
+TEXT: 40 million without food.
+X: 58
+Y: 432
+SIZE: 26
+COLOR: #cc6600
+BOLD: true
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: text
+TEXT: 11 million children lost to the noise of war.
+X: 58
+Y: 482
+SIZE: 16
+COLOR: #332211
+ANIMATION: fade-in
+DURATION: 2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #000510 100%)
+
+TYPE: circle
+X: 500
+Y: -100
+SIZE: 500
+COLOR: #000088
+
+TYPE: circle
+X: -60
+Y: 200
+SIZE: 340
+COLOR: #002244
+
+TYPE: circle
+X: 720
+Y: 420
+SIZE: 200
+COLOR: #004488
+
+TYPE: text
+TEXT: The World Divided
+X: 56
+Y: 56
+SIZE: 48
+COLOR: #4488ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=820&q=80
+X: 56
+Y: 130
+WIDTH: 788
+HEIGHT: 260
+
+TYPE: text
+TEXT: Alliance A
+X: 58
+Y: 418
+SIZE: 20
+COLOR: #ff4444
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.2s
+
+TYPE: text
+TEXT: 34 nations, 2.1B people
+X: 58
+Y: 448
+SIZE: 14
+COLOR: #441111
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: Alliance B
+X: 330
+Y: 418
+SIZE: 20
+COLOR: #4488ff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.4s
+
+TYPE: text
+TEXT: 28 nations, 1.8B people
+X: 330
+Y: 448
+SIZE: 14
+COLOR: #112244
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: Neutral
+X: 610
+Y: 418
+SIZE: 20
+COLOR: #888888
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1.6s
+
+TYPE: text
+TEXT: 31 nations, watching
+X: 610
+Y: 448
+SIZE: 14
+COLOR: #333333
+ANIMATION: fade-in
+DURATION: 1.8s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #080000 50%, #000000 100%)
+
+TYPE: circle
+X: 200
+Y: -80
+SIZE: 500
+COLOR: #660000
+
+TYPE: circle
+X: 640
+Y: 200
+SIZE: 340
+COLOR: #440000
+
+TYPE: circle
+X: -60
+Y: 400
+SIZE: 260
+COLOR: #330000
+
+TYPE: text
+TEXT: Day 180.
+X: 56
+Y: 62
+SIZE: 72
+COLOR: #cc0000
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.6s
+
+TYPE: text
+TEXT: The ceasefire held for 11 minutes.
+X: 58
+Y: 156
+SIZE: 26
+COLOR: #552222
+ANIMATION: slide-up
+DURATION: 1s
+
+TYPE: text
+TEXT: Then it didn't.
+X: 58
+Y: 200
+SIZE: 44
+COLOR: #ff2200
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.8s
+DELAY: 0.4s
+
+TYPE: image
+SRC: https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=820&q=80
+X: 56
+Y: 278
+WIDTH: 788
+HEIGHT: 200
+
+TYPE: text
+TEXT: No side was winning.
+X: 58
+Y: 500
+SIZE: 24
+COLOR: #441100
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: Every side was losing.
+X: 58
+Y: 496
+SIZE: 24
+COLOR: #441100
+ANIMATION: fade-in
+DURATION: 2s
+
+TYPE: text
+TEXT: No side was winning.  Every side was losing.
+X: 56
+Y: 500
+SIZE: 20
+COLOR: #331100
+ANIMATION: fade-in
+DURATION: 2s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #030308 60%, #000000 100%)
+
+TYPE: circle
+X: 360
+Y: 60
+SIZE: 560
+COLOR: #110011
+
+TYPE: circle
+X: -100
+Y: 360
+SIZE: 320
+COLOR: #000022
+
+TYPE: circle
+X: 720
+Y: -60
+SIZE: 240
+COLOR: #001100
+
+TYPE: text
+TEXT: What do we lose
+X: 56
+Y: 70
+SIZE: 46
+COLOR: #888899
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: when the world burns?
+X: 56
+Y: 130
+SIZE: 46
+COLOR: #ffffff
+BOLD: true
+ANIMATION: fade-in
+DURATION: 1s
+
+TYPE: circle
+X: 70
+Y: 234
+SIZE: 8
+COLOR: #cc4444
+
+TYPE: text
+TEXT: The art that took centuries to make
+X: 96
+Y: 230
+SIZE: 17
+COLOR: #443333
+ANIMATION: slide-right
+DURATION: 1.1s
+
+TYPE: circle
+X: 70
+Y: 270
+SIZE: 8
+COLOR: #4444cc
+
+TYPE: text
+TEXT: The science that could have cured disease
+X: 96
+Y: 266
+SIZE: 17
+COLOR: #333344
+ANIMATION: slide-right
+DURATION: 1.3s
+
+TYPE: circle
+X: 70
+Y: 306
+SIZE: 8
+COLOR: #44cc44
+
+TYPE: text
+TEXT: The languages spoken by only thousands
+X: 96
+Y: 302
+SIZE: 17
+COLOR: #334433
+ANIMATION: slide-right
+DURATION: 1.5s
+
+TYPE: circle
+X: 70
+Y: 342
+SIZE: 8
+COLOR: #cccc44
+
+TYPE: text
+TEXT: The children who hadn't yet dreamed
+X: 96
+Y: 338
+SIZE: 17
+COLOR: #444433
+ANIMATION: slide-right
+DURATION: 1.7s
+
+TYPE: circle
+X: 70
+Y: 378
+SIZE: 8
+COLOR: #cc44cc
+
+TYPE: text
+TEXT: The future we were all building together
+X: 96
+Y: 374
+SIZE: 17
+COLOR: #443344
+ANIMATION: slide-right
+DURATION: 1.9s
+
+TYPE: text
+TEXT: War doesn't just destroy places.
+X: 56
+Y: 450
+SIZE: 20
+COLOR: #332233
+ANIMATION: fade-in
+DURATION: 2.4s
+
+TYPE: text
+TEXT: It destroys what could have been.
+X: 56
+Y: 480
+SIZE: 20
+COLOR: #332233
+ANIMATION: fade-in
+DURATION: 2.8s
+
+
+PAGE
+BACKGROUND: linear-gradient(160deg, #000000 0%, #000808 50%, #050000 100%)
+
+TYPE: circle
+X: 180
+Y: -120
+SIZE: 580
+COLOR: #003311
+
+TYPE: circle
+X: 600
+Y: 160
+SIZE: 360
+COLOR: #330000
+
+TYPE: circle
+X: 720
+Y: 440
+SIZE: 220
+COLOR: #002244
+
+TYPE: text
+TEXT: But then —
+X: 56
+Y: 80
+SIZE: 52
+COLOR: #336633
+BOLD: true
+ANIMATION: fade-in
+DURATION: 0.7s
+
+TYPE: text
+TEXT: people chose differently.
+X: 56
+Y: 150
+SIZE: 44
+COLOR: #ffffff
+BOLD: true
+ANIMATION: zoom-in
+DURATION: 0.9s
+
+TYPE: text
+TEXT: Soldiers laid down weapons.
+X: 58
+Y: 244
+SIZE: 22
+COLOR: #335533
+ANIMATION: slide-right
+DURATION: 1.2s
+
+TYPE: text
+TEXT: Civilians fed the enemy's children.
+X: 58
+Y: 282
+SIZE: 22
+COLOR: #335533
+ANIMATION: slide-right
+DURATION: 1.5s
+
+TYPE: text
+TEXT: Leaders were replaced by listeners.
+X: 58
+Y: 320
+SIZE: 22
+COLOR: #335533
+ANIMATION: slide-right
+DURATION: 1.8s
+
+TYPE: text
+TEXT: The war didn't end with a treaty.
+X: 58
+Y: 394
+SIZE: 20
+COLOR: #223322
+ANIMATION: fade-in
+DURATION: 2.2s
+
+TYPE: text
+TEXT: It ended with a choice.
+X: 58
+Y: 428
+SIZE: 34
+COLOR: #44aa44
+BOLD: true
+ANIMATION: fade-in
+DURATION: 2.6s
+
+TYPE: text
+TEXT: The same choice available to us right now.
+X: 56
+Y: 496
+SIZE: 14
+COLOR: #112211
+ANIMATION: fade-in
+DURATION: 3.2s

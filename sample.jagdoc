@@ -1,0 +1,56 @@
+PAGE
+BACKGROUND: #254ea7
+ 
+ELEMENT
+TYPE: text
+X: 120
+Y: 100
+TEXT: SITU
+COLOR: #ffffff
+SIZE: 28
+ 
+ELEMENT
+TYPE: image
+X: 326
+Y: 108
+SRC: 
+WIDTH: 280
+HEIGHT: 180
+ 
+ 
+PAGE
+ 
+ELEMENT
+TYPE: shape
+X: 348
+Y: 194
+SHAPE: rect
+WIDTH: 220
+HEIGHT: 130
+FILL: #3b82f6
+BORDER: #6366f1
+ 
+ 
+PAGE
+ 
+ELEMENT
+TYPE: text
+X: 120
+Y: 100
+TEXT: Double-click to edit
+COLOR: #ffffff
+SIZE: 28
+ 
+ 
+PAGE
+BACKGROUND: #1349be
+ 
+ELEMENT
+TYPE: shape
+X: 356
+Y: 141
+SHAPE: circle
+WIDTH: 220
+HEIGHT: 130
+FILL: #3b82f6
+BORDER: #6366f1
